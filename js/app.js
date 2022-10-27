@@ -73,5 +73,26 @@ function openingQuestions() {
 //Add viewRoles function
 
 
+//Add viewEmployees function
+
+
+
+//Add addDepartment function
+
+
+//Add addrole function
+
+
+//Add addEmployee function
+
+
+
+// add inquirer prompts for user to navigate table
+
+// add inquirer prompts for user to fill out information for department
+
+// add inquirer prompts for user to fill out information for role
+
+// add inquirer prompts for user to fill out information for employee
 
   openingQuestions();

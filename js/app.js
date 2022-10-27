@@ -23,6 +23,19 @@ function openingQuestions() {
   ]
 
 
+  }).then (function (answer) {
+
+    switch (answer.search) {
+
+          case "View departments":
+            viewDepartments();
+
+            break;
+
+            case "View roles":
+                viewRoles();
+                break;
+
 
 
 

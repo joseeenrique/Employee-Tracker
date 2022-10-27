@@ -34,12 +34,43 @@ function openingQuestions() {
 
             case "View roles":
                 viewRoles();
-                break;
+
+            break;
+
+            case "View employees":
+                viewEmployees();
+
+            break;
+
+            case "Add department":
+                addDepartment();
+
+            break;
+
+            case "Add role":
+                addRole();
+
+            break;
+
+            case "Add employee":
+                    addRole();
+
+            break;
+    
+            case "Exit":
+              console.log("Bye!");
+              connection.end();
+
+              break
+
+        }
+    })
+  };
+
+//add viewDepartments function
 
 
-
-
-
+//Add viewRoles function
 
 
 

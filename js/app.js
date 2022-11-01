@@ -68,7 +68,11 @@ function openingQuestions() {
   };
 
 //add viewDepartments function
-
+function viewDepartments(){
+  const query = connection.query("SELECT * FROM departments", function (err, res) {
+    if (err) throw err
+    console.log("departments");
+}
 
 //Add viewRoles function
 
